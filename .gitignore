@@ -1,0 +1,24 @@
+# --- Dataset e Dati ---
+data/
+*.ubyte
+*.gz
+
+# --- Pesi e Checkpoint dei Modelli ---
+*.pth
+*.pt
+*.ckpt
+
+# --- Cache di Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# --- File di sistema operativo ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
